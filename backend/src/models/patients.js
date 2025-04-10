@@ -10,7 +10,7 @@
 
 import { Schema, model } from "mongoose";
 
-const pacientSchema = new Schema(
+const patientSchema = new Schema(
   {
     name: {
       type: String,
@@ -45,4 +45,4 @@ const pacientSchema = new Schema(
   }
 );
 
-export default model("Pacient", pacientSchema);
+export default model("Patients", patientSchema);
